@@ -42,7 +42,7 @@ const Search = () => {
         },
     }))();
 
-    const {inputValue, setInputValue} = useState('test');
+    const [inputValue, setInputValue] = useState('Search...');
     
     return (
         <div className={classes.search}>
